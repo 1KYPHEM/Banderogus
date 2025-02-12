@@ -1,0 +1,236 @@
+.body {
+    font-family: "Montserrat", serif;
+    margin: 0;
+}
+
+.main-page {
+    background: linear-gradient(269deg, #a5deff 0%, #fcfefe 100%);
+    width: 100%;
+}
+
+.logo-black {
+    margin-top: 32px;
+    margin-left: 95px;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+}
+
+.main-page-text-conteiner {
+    border-radius: 40px;
+    background: #fff;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.main-page-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.main-page-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.125;
+    color: #1b1d1f;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.main-page-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.main-page-btm {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #ff6b0a;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.facts {
+    margin-top: 48px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.facts-trezub {
+    margin-bottom: 24px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1b1d1f;
+    margin-bottom: 32px;
+    margin-top: 0px;
+}
+
+.facts-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 772px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.facts-item {
+    width: calc((100% / 3) - (24px * 2)/ 3);
+
+}
+
+.facts-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+    .facts-item-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.form-conteiner {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    background: linear-gradient(269deg, #a5deff 0%, #fcfefe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background: #fff;
+    border-radius: 40px;
+    padding-top: 32px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-trezub {
+    margin-bottom: 32px;
+}
+
+.form-title {
+    font-size: 24px;
+    line-height: 1;
+    color: #1b1d1f;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.form-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    margin-top: 0%px;
+    margin-bottom: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field-label {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    margin-bottom: 8px;
+}
+
+.form-field-name {
+    margin-bottom: 24px;
+}
+
+.form-input {
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1d1f;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #ff6b0a;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
